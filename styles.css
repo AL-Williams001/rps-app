@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.root {
+  background-color: #1b1a17;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15em;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 2em;
+  text-align: center;
+  font-size: 40px;
+  color: #00a7e1;
+}
+
+.scoreboard p {
+  font-size: 45px;
+  margin-top: 0.5em;
+  color: red;
+}
+
+.rps-container {
+  display: flex;
+  gap: 25em;
+  color: #5fffbd;
+}
+
+.rps-container h2 {
+  font-size: 95px;
+}
+
+.weapons-container button {
+  font-size: 30px;
+  background-color: transparent;
+  padding: 2em;
+  cursor: pointer;
+  color: orange;
+}
+
+.weapons-container button:hover {
+  background-color: #33bbee;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  border-bottom: 20px;
+}

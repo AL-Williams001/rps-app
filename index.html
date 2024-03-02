@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root">
+      <section class="scoreboard">
+        <div class="player-score">
+          <h1>Player</h1>
+          <p id="player-score-label">0</p>
+        </div>
+        <div class="tie-score">
+          <h1>Ties</h1>
+          <p id="tie-score-label">0</p>
+        </div>
+        <div class="pc-score">
+          <h1>Computer</h1>
+          <p id="pc-score-label">0</p>
+        </div>
+      </section>
+
+      <section class="rps-container">
+        <div class="player-choice-container">
+          <h2 id="player-choice">#</h2>
+        </div>
+        <div class="pc-choice-container">
+          <h2 id="pc-choice">#</h2>
+        </div>
+      </section>
+
+      <section class="weapons-container">
+        <button id="rock">
+          <img src="images/rock-svgrepo-com.svg" />
+        </button>
+        <button id="paper">
+          <img src="images/messy_lined_papers.svg" />
+        </button>
+        <button id="scissors">
+          <img src="images/scissors-svgrepo-com.svg" />
+        </button>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
