@@ -56,3 +56,38 @@ img {
   height: 90px;
   border-bottom: 20px;
 }
+
+@media only screen and (min-width: 380px) and (max-width: 600px) {
+  .root {
+    gap: 5em;
+  }
+
+  .scoreboard {
+    gap: 1em;
+    font-size: 20px;
+  }
+
+  .scoreboard p {
+    font-size: 25px;
+  }
+
+  .rps-container {
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+    gap: 2em; /* Adjust gap */
+  }
+
+  .rps-container h2 {
+    font-size: 55px;
+  }
+
+  .weapons-container {
+    display: flex; /* Align weapons horizontally */
+    flex-wrap: wrap; /* Allow wrapping of buttons */
+    justify-content: center; /* Center align the buttons */
+    gap: 1em; /* Adjust gap between buttons */
+  }
+
+  .weapons-container button {
+    padding: 1em;
+  }
+}
